@@ -4,6 +4,7 @@
 *.ap_
 *.aab
 
+pose/
 # Files for the ART/Dalvik VM
 *.dex
 
