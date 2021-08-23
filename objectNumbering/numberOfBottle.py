@@ -39,7 +39,7 @@ def main():
 
     cimg = src.copy() # numpy function
 
-    circles = cv.HoughCircles(img, cv.HOUGH_GRADIENT, 1, 10, np.array([]), 69, 21, 9, 26)
+    circles = cv.HoughCircles(img, cv.HOUGH_GRADIENT, 1, 10, np.array([]), 69, 21, 2, 26)
 
     print(circles)
 
