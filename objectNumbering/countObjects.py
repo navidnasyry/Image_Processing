@@ -39,9 +39,11 @@ print(kernel)
 dilation = cv.dilate(thresh, kernel, iterations=2)
 erotin = cv.erode(thresh, kernel,iterations=18 )
 
+
 contours_dilation, hierarchy = cv.findContours(dilation,
                                     cv.RETR_EXTERNAL,
                                     cv.CHAIN_APPROX_SIMPLE)
+
 
 contours_erotion, hierarchy2 = cv.findContours(erotin,
                                     cv.RETR_EXTERNAL,
