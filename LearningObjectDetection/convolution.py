@@ -59,6 +59,7 @@ kernel2 = np.array([[-1,-1,-1],
                     [-1,-1,-1]]
                     )
                     
+                    
 im2 = cv2.filter2D(img, -1, kernel2)
 showImage(im2, 'edge')
 
